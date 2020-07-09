@@ -690,3 +690,17 @@ endif
 
 
 " vim: set fdl=0 fdm=marker:
+
+" Respect terminal background
+highlight LineNr guibg=NONE
+highlight Normal guibg=NONE
+highlight NonText guibg=NONE
+highlight EndOfBuffer guibg=NONE
+highlight LineNr ctermbg=NONE
+highlight Normal ctermbg=NONE
+highlight NonText ctermbg=NONE
+highlight EndOfBuffer ctermbg=NONE
+highlight SignColumn guibg=NONE
+
+" No underscore for CursorLine
+highlight CursorLine cterm=NONE
