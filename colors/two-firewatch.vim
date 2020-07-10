@@ -704,3 +704,6 @@ highlight SignColumn guibg=NONE
 
 " No underscore for CursorLine
 highlight CursorLine cterm=NONE
+
+" Fix black statusline in Goyo scratch buffers
+highlight StatusLineNC cterm=NONE
