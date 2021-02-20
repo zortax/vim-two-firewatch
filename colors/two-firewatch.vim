@@ -707,3 +707,9 @@ highlight CursorLine cterm=NONE
 
 " Fix black statusline in Goyo scratch buffers
 highlight StatusLineNC cterm=NONE
+
+
+" (color_coded) overwrites
+highligth PreProc ctermfg=251 guifg=#c6c6c6
+highlight MacroDefinition ctermfg=147 guifg=#afafff
+highlight Namespace ctermfg=210 guifg=#ff8787
