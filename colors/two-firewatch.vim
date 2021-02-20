@@ -713,3 +713,4 @@ highlight StatusLineNC cterm=NONE
 highligth PreProc ctermfg=251 guifg=#c6c6c6
 highlight MacroDefinition ctermfg=147 guifg=#afafff
 highlight Namespace ctermfg=210 guifg=#ff8787
+highlight Member ctermfg=111 guifg=#87afff
